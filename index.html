@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--  CSS Links-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>jquary ui </title>
+  </head>
+  <body>
+    <!-- start section area -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- draggable -->
+            <div id="draggable" class="ui-widget-content">
+              <p>Drag me around</p>
+            </div>
+            <!-- draggable -->
+          </div>
+          <div class="col-md-12">
+            <div id="draggable1" class="ui-widget-content">
+              <p>Drag me to my target</p>
+            </div>
+             
+            <div id="droppable" class="ui-widget-header">
+              <p>Drop here</p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <!-- resizable  -->
+          <div id="resizable" class="ui-widget-content">
+            <h3 class="ui-widget-header">Resizable</h3>
+          </div>
+            <!-- resizable  -->
+          </div>
+          <div class="col-md-12">
+            <!-- selectable  -->
+            <ol id="selectable">
+              <li class="ui-widget-content">Item 1</li>
+              <li class="ui-widget-content">Item 2</li>
+              <li class="ui-widget-content">Item 3</li>
+              <li class="ui-widget-content">Item 4</li>
+              <li class="ui-widget-content">Item 5</li>
+              <li class="ui-widget-content">Item 6</li>
+              <li class="ui-widget-content">Item 7</li>
+            </ol>
+            <!-- selectable  -->
+          </div>
+          <div class="col-md-12">
+            <!-- sortable -->
+            <ul id="sortable">
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+            </ul>
+            <!-- sortable -->
+          </div>
+          <div class="col-md-12">
+            <!-- accordion -->
+            <div id="accordion">
+              <h3>Section 1</h3>
+              <div>
+                <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+              </div>
+              <h3>Section 2</h3>
+              <div>
+                <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+                </p>
+              </div>
+              <h3>Section 3</h3>
+              <div>
+                <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+              <h3>Section 4</h3>
+              <div>
+                <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+                </p>
+                <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+                </p>
+              </div>
+            </div>
+            <!-- accordion -->
+          </div>
+          <div class="col-md-12">
+            <!-- autocomplete -->
+            <div class="ui-widget">
+              <label for="tags">Tags: </label>
+              <input id="tags">
+            </div>
+            <!-- autocomplete -->
+          </div>
+          <div class="col-md-12">
+            <!-- Button -->
+            <div class="widget">
+              <h1>Widget Buttons</h1>
+              <button>A button element</button>
+             
+              <input type="submit" value="A submit button">
+             
+              <a href="#">An anchor</a>
+            </div>
+            <h1>CSS Buttons</h1>
+            <button class="ui-button ui-widget ui-corner-all">A button element</button>
+             
+            <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+             
+            <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+             <!-- Button -->
+          </div>
+          <div class="col-md-6">
+            <!-- Checkbox -->
+          <div class="widget">
+            <h1>Checkbox and radio button widgets</h1>
+           
+            <h2>Radio Group</h2>
+            <fieldset>
+              <legend>Select a Location: </legend>
+              <label for="radio-1">New York</label>
+              <input type="radio" name="radio-1" id="radio-1">
+              <label for="radio-2">Paris</label>
+              <input type="radio" name="radio-1" id="radio-2">
+              <label for="radio-3">London</label>
+              <input type="radio" name="radio-1" id="radio-3">
+            </fieldset>
+           
+            <h2>Checkbox</h2>
+            <fieldset>
+              <legend>Hotel Ratings: </legend>
+              <label for="checkbox-1">2 Star</label>
+              <input type="checkbox" name="checkbox-1" id="checkbox-1">
+              <label for="checkbox-2">3 Star</label>
+              <input type="checkbox" name="checkbox-2" id="checkbox-2">
+              <label for="checkbox-3">4 Star</label>
+              <input type="checkbox" name="checkbox-3" id="checkbox-3">
+              <label for="checkbox-4">5 Star</label>
+              <input type="checkbox" name="checkbox-4" id="checkbox-4">
+            </fieldset>
+           
+            <h2>Checkbox nested in label</h2>
+            <fieldset>
+              <legend>Bed Type: </legend>
+              <label for="checkbox-nested-1">2 Double
+                <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+              </label>
+              <label for="checkbox-nested-2">2 Queen
+                <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+              </label>
+              <label for="checkbox-nested-3">1 Queen
+                <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+              </label>
+              <label for="checkbox-nested-4">1 King
+                <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+              </label>
+            </fieldset>
+          </div>
+            <!-- Checkbox -->
+          </div>
+          <div class="col-md-6">
+            <!-- controlgroup -->
+            <div class="widget">
+              <h1>Controlgroup</h1>
+              <fieldset>
+                <legend>Rental Car</legend>
+                <div class="controlgroup">
+                  <select id="car-type">
+                    <option>Compact car</option>
+                    <option>Midsize car</option>
+                    <option>Full size car</option>
+                    <option>SUV</option>
+                    <option>Luxury</option>
+                    <option>Truck</option>
+                    <option>Van</option>
+                  </select>
+                  <label for="transmission-standard">Standard</label>
+                  <input type="radio" name="transmission" id="transmission-standard">
+                  <label for="transmission-automatic">Automatic</label>
+                  <input type="radio" name="transmission" id="transmission-automatic">
+                  <label for="insurance">Insurance</label>
+                  <input type="checkbox" name="insurance" id="insurance">
+                  <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+                  <input id="horizontal-spinner" class="ui-spinner-input">
+                  <button>Book Now!</button>
+                </div>
+              </fieldset>
+              <br>
+              <fieldset>
+                <legend>Rental Car</legend>
+                <div class="controlgroup-vertical">
+                  <select>
+                    <option>Compact car</option>
+                    <option>Midsize car</option>
+                    <option>Full size car</option>
+                    <option>SUV</option>
+                    <option>Luxury</option>
+                    <option>Truck</option>
+                    <option>Van</option>
+                  </select>
+                  <label for="transmission-standard-v">Standard</label>
+                  <input type="radio" name="transmission-v" id="transmission-standard-v">
+                  <label for="transmission-automatic-v">Automatic</label>
+                  <input type="radio" name="transmission-v" id="transmission-automatic-v">
+                  <label for="insurance-v">Insurance</label>
+                  <input type="checkbox" name="insurance" id="insurance-v">
+                  <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+                  <input id="vertical-spinner" class="ui-spinner-input">
+                  <button id="book">Book Now!</button>
+                </div>
+              </fieldset>
+            </div>            
+            <!-- controlgroup -->
+          </div>
+          <div class="col-md-12">
+            <!-- datepicker -->
+            <p>Date: <input type="text" id="datepicker"></p>
+            <!-- datepicker -->
+          </div>
+          <div class="col-md-12">
+            <!-- dialog -->
+            <div id="dialog" title="Basic dialog">
+              <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+            </div>
+            <!-- dialog -->
+          </div>
+          <div class="col-md-12">
+            <!-- menu -->
+            <ul id="menu">
+              <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+              <li><div>Books</div></li>
+              <li><div>Clothing</div></li>
+              <li><div>Electronics</div>
+                <ul>
+                  <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                  <li><div>Car Hifi</div></li>
+                  <li><div>Utilities</div></li>
+                </ul>
+              </li>
+              <li><div>Movies</div></li>
+              <li><div>Music</div>
+                <ul>
+                  <li><div>Rock</div>
+                    <ul>
+                      <li><div>Alternative</div></li>
+                      <li><div>Classic</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Jazz</div>
+                    <ul>
+                      <li><div>Freejazz</div></li>
+                      <li><div>Big Band</div></li>
+                      <li><div>Modern</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Pop</div></li>
+                </ul>
+              </li>
+              <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+            </ul>
+            <!-- menu -->
+          </div>
+          <div class="col-md-12">
+            <!-- progressbar -->
+            <div id="progressbar"></div>
+            <!-- progressbar -->
+          </div>
+          <div class="col-md-12">
+            <!-- selectmenu -->
+          <div class="demo">
+           
+          <form action="#">
+           
+            <fieldset>
+              <label for="speed">Select a speed</label>
+              <select name="speed" id="speed">
+                <option>Slower</option>
+                <option>Slow</option>
+                <option selected="selected">Medium</option>
+                <option>Fast</option>
+                <option>Faster</option>
+              </select>
+           
+              <label for="files">Select a file</label>
+              <select name="files" id="files">
+                <optgroup label="Scripts">
+                  <option value="jquery">jQuery.js</option>
+                  <option value="jqueryui">ui.jQuery.js</option>
+                </optgroup>
+                <optgroup label="Other files">
+                  <option value="somefile">Some unknown file</option>
+                  <option value="someotherfile">Some other file with a very long option text</option>
+                </optgroup>
+              </select>
+           
+              <label for="number">Select a number</label>
+              <select name="number" id="number">
+                <option>1</option>
+                <option selected="selected">2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+              </select>
+           
+              <label for="salutation">Select a title</label>
+              <select name="salutation" id="salutation">
+                <option disabled selected>Please pick one</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Dr.</option>
+                <option>Prof.</option>
+                <option>Other</option>
+              </select>
+            </fieldset>
+           
+          </form>
+           
+          </div>
+            <!-- selectmenu -->
+          </div>
+          <div class="col-md-12">
+            <!-- slider -->
+            <div id="slider"></div>
+            <!-- slider -->
+          </div>
+          <div class="col-md-12">
+            <!-- spinner -->
+          <p>
+            <label for="spinner">Select a value:</label>
+            <input id="spinner" name="value">
+          </p>
+           
+          <p>
+            <button id="disable">Toggle disable/enable</button>
+            <button id="destroy">Toggle widget</button>
+          </p>
+           
+          <p>
+            <button id="getvalue">Get value</button>
+            <button id="setvalue">Set value to 5</button>
+          </p>           
+             <!-- spinner -->
+          </div>
+          <div class="col-md-12">
+            <!-- tabs -->
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs-2">Proin dolor</a></li>
+              <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs-2">
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+          </div>
+            <!-- tabs -->
+          </div>
+          <div class="col-md-12">
+            <!-- tooltip -->
+            <p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
+            the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+            <p>But as it's not a native tooltip, it can be styled. Any themes built with
+            <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+            will also style tooltips accordingly.</p>
+            <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+            <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+            <p>Hover the field to see the tooltip.</p>           
+            <!-- tooltip -->
+          </div>
+          <div class="col-md-12">
+            <!-- toggler -->
+            <div class="toggler">
+              <div id="effect" class="ui-corner-all">
+                  Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+              </div>
+            </div>
+             
+            <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+             <!-- toggler -->
+          </div>
+          <div class="col-md-12">
+            <!-- easing -->
+            <div id="graphs"></div>
+            <!-- easing -->
+          </div>
+          <div class="col-md-12">
+            <!-- removesClass -->
+            <div class="toggler">
+              <div id="effect" class="newClass ui-corner-all">
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+              </div>
+          </div>
+ 
+          <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+            <!-- removesClass -->
+          </div>
+          <div class="col-md-12">
+            <!-- effect -->
+<!--           <div class="toggler">
+            <div id="effect" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+              </p>
+            </div>
+          </div>
+         
+          <select name="effects" id="effectTypes">
+            <option value="blind">Blind</option>
+            <option value="bounce">Bounce</option>
+            <option value="clip">Clip</option>
+            <option value="drop">Drop</option>
+            <option value="explode">Explode</option>
+            <option value="fade">Fade</option>
+            <option value="fold">Fold</option>
+            <option value="highlight">Highlight</option>
+            <option value="puff">Puff</option>
+            <option value="pulsate">Pulsate</option>
+            <option value="scale">Scale</option>
+            <option value="shake">Shake</option>
+            <option value="size">Size</option>
+            <option value="slide">Slide</option>
+            <option value="transfer">Transfer</option>
+          </select>
+         
+          <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ --> 
+            <!-- effect -->
+          </div>
+          <div class="col-md-12"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end section area -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS, then Custom js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
